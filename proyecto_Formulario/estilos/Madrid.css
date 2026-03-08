@@ -1,0 +1,78 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+}
+form{
+    max-width: 400px;           /* ancho máximo del formulario */
+    margin: 40px auto;          /* centra el formulario horizontalmente */
+    padding: 20px;              /* espacio interior */
+    border: 5px solid #4DB6AC;  /* borde que combina con el fondo */
+    border-radius: 10px;        /* esquinas redondeadas */
+    background-color: white;    /* fondo blanco para destacar sobre aquamarine */
+}
+#Crear {
+    display: block;
+    margin: 20px auto 0;
+}
+#introduccion{
+    text-align: center;
+}
+
+/* margen y relleno para todas las secciones */
+section{
+    max-width: 900px;      /* la sección no ocupa todo el ancho, deja espacio lateral */
+    margin: 30px auto;     /* separación arriba y abajo + centrado horizontal */
+    padding: 20px;         /* espacio interior dentro de cada sección */
+    border: 5px  solid #4DB6AC ;  
+    border-radius: 10px;        
+}
+
+/* más separación extra al final de la última sección */
+section:last-of-type{
+    margin-bottom: 60px;
+}
+#prado{
+    /*color de fondo*/
+    background-color:  #E3F2FD;
+    text-align: center;
+}
+#reina{/*color de fondo*/
+    background-color: beige;
+    text-align: center;
+
+}
+#Thyssen{/*color de fondo*/
+    background-color: #2F4F4F;
+    text-align: center;
+    color:white;
+}
+man{
+    background-color: #EFE6DD;
+    color:white;
+}
+
+/* todas las imágenes del documento con el mismo tamaño */
+img{
+    display: block;
+    margin: 0 auto;
+      /* ancho y altofijo para todas */
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover; /* recorta la imagen si no tiene esa proporción */
+}
+
+#man{/*color de fondo*/
+    background-color: #F3E8FF;
+    text-align: center;
+}
+#navegacion{
+    /*foto en el centro*/
+    background-color: #F3E8FF;
+    text-align: center
+}
