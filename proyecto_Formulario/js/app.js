@@ -20,13 +20,14 @@ form.addEventListener("submit", function(e){
         alert("Error en el campo 'Repetir contraseña': las contraseñas no coinciden.");
         return;
     }
-    // 3) Todo correcto: mostrar mensaje y cambiar color de fondo
+   // vwntana emergente
     alert(
         `Se ha creado correctamente la cuenta de\n` +
         `${nombre} ${apellido1}`
     );
     // Cambiar color de fondo de la página
-    document.body.style.backgroundColor = "#C8E6C9"; // verde suave, pon el color que quieras
+    document.body.style.backgroundColor = "#C8E6C9"; 
     // Limpiar el formulario
     form.reset();
+
 });
